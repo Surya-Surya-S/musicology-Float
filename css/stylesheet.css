@@ -1,0 +1,644 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+.clearfix::after{
+    content: " ";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+}
+@font-face{
+    font-family: "Oswald-Light";
+    src: url("../fonts/Oswald-Light.ttf");
+}
+@font-face{
+    font-family: "Oswald-Medium";
+    src: url("../fonts/Oswald-Medium.ttf");
+}
+@font-face{
+    font-family: "Oswald-Regular";
+    src: url("../fonts/Oswald-Regular.ttf");
+}
+@font-face{
+    font-family: "Oswald-Semibold";
+    src: url("../fonts/Oswald-SemiBold.ttf");
+}
+@font-face{
+    font-family: "Oswald-Bold";
+    src: url("../fonts/Oswald-Bold.ttf");
+}
+@font-face{
+    font-family: "Montserrat-Regular";
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+body{
+    font-family: "Oswald, Montserrat";
+}
+/* header_start */
+header{
+    background-color: #303030;
+    padding: 20px 0;
+}
+.header_inner{
+    width: 90%;
+    margin: 0 auto;
+}
+.logo, .search{
+    width: 20%;
+    float: left;
+    margin: 0 auto;
+}
+.logo_img{
+    width: 100px;
+}
+.logo_img img{
+    width: 100%;
+}
+.menu{
+    width: 50%;
+    float: left;
+    margin: 14px -20px 0 90px;
+}
+.menu li{
+    float: left;
+    margin: 0 10px 0 0;
+}
+.menu li a{
+    font-size: 18px;
+    font-family: "Oswald-Regular";
+    font-weight: 100;
+    text-transform: uppercase;
+    display: inline-block;
+    color: #fff;
+    padding: 5px 10px;
+}
+.menu li.active a{
+    color: #303030;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.menu li a:hover{
+    color: #303030;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.search_icon{
+    background: url("../images/cowsprite.png") no-repeat -97px -57px;
+	width: 18px;
+	height: 18px;
+    float: right;
+    margin: 18px 0 0 0;
+}
+/* header_end */
+
+/* banner_start */
+.banner{
+    background-image: url("../images/banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px 0 58px
+}
+.banner_inner{
+    width: 90%;
+    margin: 0 auto;
+}
+.banner_inner h2{
+    font-size: 60px;
+    letter-spacing: 3px;
+    font-family: "Oswald-Light";
+    text-transform: capitalize;
+    color: #fff;
+    margin: 0 0 10px 0;
+}
+.banner_inner p{
+    width: 40%;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: "Montserrat-Regular";
+    text-align: left;
+    color: #fff;
+    margin: 0 0 20px 0;
+}
+.banner_link{
+    background-color: #e8631c;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 8px 40px 10px;
+}
+.banner_link a{
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: "Oswald-Regular";
+    text-transform: uppercase;
+    color: #fff;
+}
+/* banner_end */
+
+/* dance_start */
+.dance{
+    background-color: #e8631c;
+    padding: 60px 0;
+}
+.dance_inner{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+.dance_top h2{
+    font-size: 46px;
+    font-family: "Oswald-Semibold";
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 0 16px 0;
+}
+.dance_top p{
+    width: 70%;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: "Montserrat-Regular";
+    color: #fff;
+    margin: 0 auto 50px;
+}
+.dance_details{
+    width: 94%;
+    margin: 0 auto;
+}
+.dance_content{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+}
+.content_top, .content_bottom{
+    width: 90%;
+    background-color: #303030;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.america_img{
+    width: 346px;
+    margin: 0 0 20px 0;
+}
+.america_img img{
+    width: 100%;
+}
+.content_bottom h2{
+    font-size: 28px;
+    font-family: "Oswald-Regular";
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 0 6px 0;
+}
+.content_bottom p{
+    width: 96%;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Montserrat-Regular";
+    text-align: center;
+    color: #fff;
+    margin: 0 auto 30px;
+}
+/* dance_end */
+
+/* pricing_start */
+.pricing{
+    background-color: #303030;
+    padding: 60px 0 90px;
+}
+.pricing_inner{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+.pricing_top h2{
+    font-size: 46px;
+    font-family: "Oswald-Semibold";
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 0 16px 0;
+}
+.pricing_top p{
+    width: 70%;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: "Montserrat-Regular";
+    color: #fff;
+    margin: 0 auto 50px;
+}
+.pricing_details{
+    width: 94%;
+    margin: 0 auto;
+}
+.pricing_content{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+}
+.top_pricing, .bottom_pricing{
+    width: 90%;
+    background-color: #e8631c;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.pricing_img{
+    width: 120px;
+    margin: 58px auto 36px;
+}
+.pricing_img img{
+    width: 100%;
+}
+.pricing_bottom h2{
+    font-size: 26px;
+    font-family: "Oswald-Semibold";
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 0 6px 0;
+}
+.pricing_bottom p{
+    width: 98%;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Montserrat-Regular";
+    text-align: center;
+    color: #fff;
+    margin: 0 auto 20px;
+}
+.pricing_link{
+    width: 80%;
+    background-color: #303030;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 14px 50px;
+    margin: 0 auto 20px
+}
+.pricing_link a{
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: "Oswald-Regular";
+    color: #fff;
+}
+/* pricing_end */
+
+/* amazing_start */
+.amazing{
+    background-color: #e8631c;
+}
+.amazing_lef{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.amazing_img{
+    width: 686px;
+    display: flex;
+}
+.amazing_img img{
+    width: 100%;
+}
+.amazing_rig{
+    width: 50%;
+    float: right;
+    margin: 300px auto 0;
+}
+.amazing_inner{
+    width: 90%;
+    float: right;
+    text-align: left;
+    color: #fff;
+    margin: 0 auto;
+}
+.amazing_inner h2{
+    font-size: 48px;
+    font-family: "Oswald-Semibold";
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+}
+.amazing_inner p{
+    width: 98%;
+    font-size: 22px;
+    line-height: 30px;
+    font-family: "Montserrat-Regular";
+    margin: 0 0 40px 0;
+}
+.amazing_link{
+    background-color: #303030;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 68px 14px;
+}
+.amazing_link a{
+    font-size: 18px;
+    font-family: "Oswald-Regular";
+    text-transform: uppercase;
+    color: #fff;
+}
+/* amazing_end */
+
+/* best_start */
+.best{
+    background-color: #e8631c;
+}
+.best_lef{
+    width: 50%;
+    float: left;
+    padding: 0 0 0 20px;
+    margin: 300px auto 0;
+}
+.best_inner{
+    width: 94%;
+    float: right;
+    text-align: left;
+    color: #fff;
+    margin: 0 auto;
+}
+.best_inner h2{
+    font-size: 48px;
+    font-family: "Oswald-Semibold";
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+}
+.best_inner p{
+    width: 98%;
+    font-size: 22px;
+    line-height: 30px;
+    font-family: "Montserrat-Regular";
+    margin: 0 0 40px 0;
+}
+.best_link{
+    background-color: #303030;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 68px 14px;
+}
+.best_link a{
+    font-size: 18px;
+    font-family: "Oswald-Regular";
+    text-transform: uppercase;
+    color: #fff;
+}
+.best_rig{
+    width: 50%;
+    float: right;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.best_img{
+    width: 686px;
+    display: flex;
+    float: right;
+}
+.best_img img{
+    width: 100%;
+}
+/* best_end */
+
+/* statistics_start */
+.statistics{
+    background-color: #303030;
+    padding: 150px 0;
+}
+.statistics_top{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto 80px;
+}
+.statistics_top h2{
+    font-size: 46px;
+    font-family: "Oswald-Semibold";
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 0 16px 0;
+}
+.statistics_top p{
+    font-size: 20px;
+    line-height: 28px;
+    font-family: "Montserrat-Regular";
+    color: #fff;
+    margin: 0 0 50px 0;
+}
+.statistics_inner{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+}
+.statistics_inner h2{
+    font-size: 46px;
+    text-align: center;
+    font-family: "Oswald-Semibold";
+    text-transform: uppercase;
+    color: #fff;
+}
+.statistics_inner p{
+    font-size: 24px;
+    font-family: "Montserrat-Regular";
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+}
+/* statistics_end */
+
+/* herbert_start */
+.herbert{
+   background-image: url("../images/herbert.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 200px 0; 
+}
+.herbert_inner{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+.herbert_inner p{
+    font-size: 28px;
+    line-height: 34px;
+    font-family: "Montserrat-Regular";
+    color: #fff;
+    margin: 0 0 20px 0;
+}
+.herbert_inner h2{
+    font-size: 38px;
+    text-align: center;
+    font-family: "Oswald-Semibold";
+    text-transform: uppercase;
+    color: #fff;
+}
+/* herbert_end */
+
+/* subscribe_start */
+.subscribe{
+    background-color: #e8631c;
+    padding: 60px 0;
+}
+.subscribe_inner{
+    width: 58%;
+    text-align: center;
+    margin: 0 auto;
+}
+.subscribe_inner h2{
+    font-size: 46px;
+    text-align: center;
+    font-family: "Oswald-Semibold";
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 0 16px 0;
+}
+.subscribe_inner p{
+    font-size: 20px;
+    line-height: 28px;
+    font-family: "Montserrat-Regular";
+    text-align: center;
+    color: #fff;
+    margin: 0 0 30px 0;
+}
+form{
+    float: left;
+    width: 82%;
+}
+input[type="text"]{
+    width: 62%;
+    float: left;
+    font-size: 14px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    padding: 8px 16px;
+    margin: 0 auto 0 75px;
+}
+.subscribe_link{
+    float: left;
+    background-color: #303030;
+    border-radius: 0 4px 4px 0;
+    display: inline-block;
+    padding: 4px 24px 6px;
+    margin: 0 0 0 -138px;
+}
+.subscribe_link a{
+    font-size: 16px;
+    font-family: "Oswald-Medium";
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #fff;
+}
+/* subscribe_end */
+
+/* footer_start */
+footer{
+    background-color: #303030;
+    padding: 60px 0;
+}
+.footer_inner{
+    width: 90%;
+    margin: 0 auto;
+}
+.footer_lef{
+    width: 40%;
+    float: left;
+    margin: 0 auto;
+}
+.footer_lef h4{
+    font-size: 26px;
+    text-align: left;
+    font-family: "Oswald-Light";
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 0 12px 0;
+}
+.footer_lef p{
+    width: 80%;
+    font-size: 20px;
+    line-height: 26px;
+    font-family: "Montserrat-Regular";
+    text-align: left;
+    color: #fff;
+    margin: 0 0 30px;
+}
+.footer_link{
+    width: 50px;
+    height: 50px;
+    float: left;
+    background-color: #fff;
+    border-radius: 100%;
+    margin: 0 14px 0 auto;
+}
+.fb{
+    background: url("../images/cowsprite.png") no-repeat -104px -153px;
+	width: 14px;
+	height: 24px;
+    margin: 13px 0 0 18px;
+}
+.insta{
+    background: url("../images/cowsprite.png") no-repeat -96px -105px;
+	width: 30px;
+	height: 30px;
+    margin: 10px 0 0 10px;
+}
+.twit{
+    background: url("../images/cowsprite.png") no-repeat -103px -198px;
+	width: 24px;
+	height: 20px;
+    margin: 15px 0 0 13px;
+}
+.whatsapp{
+    background: url("../images/cowsprite.png") no-repeat -96px -247px;
+	width: 30px;
+	height: 30px;
+    margin: 10px 0 0 10px;
+}
+.footer_rig{
+    width: 60%;
+    float: right;
+    margin: 0 auto;
+}
+.footerInner_content{
+    float: left;
+    margin: 0 0 0 50px;
+}
+.footer_rig h4{
+    margin: 0 0 12px 0;
+}
+.footer_rig h4 a{
+    font-size: 26px;
+    text-align: left;
+    font-family: "Oswald-Light";
+    text-transform: uppercase;
+    color: #fff;
+}
+.footer_rig p{
+    padding: 0 0 6px 0;
+}
+.footer_rig p a{
+    font-size: 18px;
+    font-family: "Montserrat-Regular";
+    text-align: left;
+    text-transform: capitalize;
+    color: #fff;
+}
+/* footer_end */

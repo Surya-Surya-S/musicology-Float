@@ -198,7 +198,7 @@ header{
     width: 100%;
 }
 .dance_content.left .america_img,.dance_content.middle .america_img,.dance_content.right .america_img {
-    margin-left: -68px;
+    margin-left: -70px;
 }
 .content_bottom h2{
     font-size: 28px;
@@ -340,7 +340,7 @@ header{
     margin: 0 0 20px 0;
 }
 .amazing_inner p{
-    width: 98%;
+    width: 72%;
     font-size: 22px;
     line-height: 30px;
     font-family: "Montserrat-Regular";
@@ -623,7 +623,7 @@ footer{
 }
 .footerInner_content{
     float: left;
-    margin: 0 0 0 79px;
+    margin: 0 0 0 30px;
 }
 .footer_rig h4{
     margin: 0 0 12px 0;

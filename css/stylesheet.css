@@ -192,7 +192,7 @@ header{
 }
 .america_img{
     width: 250px;
-    margin: 0 auto 20px;
+    margin: 0 -90px 20px;
 }
 .america_img img{
     width: 100%;
@@ -369,7 +369,7 @@ header{
     margin: 300px auto 0;
 }
 .best_inner{
-    width: 96%;
+    width: 90%;
     float: right;
     text-align: left;
     color: #fff;
@@ -384,7 +384,7 @@ header{
     margin: 0 0 20px 0;
 }
 .best_inner p{
-    width: 94%;
+    width: 98%;
     font-size: 22px;
     line-height: 30px;
     font-family: "Montserrat-Regular";

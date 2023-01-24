@@ -191,11 +191,14 @@ header{
     margin: 0 auto;
 }
 .america_img{
-    width: 250px;
-    margin: 0 -90px 20px;
+    width: 380px;
+    margin: 0 auto 20px;
 }
 .america_img img{
     width: 100%;
+}
+.dance_content.left .america_img,.dance_content.middle .america_img,.dance_content.right .america_img {
+    margin-left: -68px;
 }
 .content_bottom h2{
     font-size: 28px;
@@ -310,9 +313,8 @@ header{
     margin: 0 auto;
 }
 .amazing_img{
-    width: 500px;
+    width: 700px;
     display: flex;
-    margin: 0 auto;
 }
 .amazing_img img{
     width: 100%;
@@ -363,13 +365,13 @@ header{
     background-color: #e8631c;
 }
 .best_lef{
-    width: 50%;
+    width: 46%;
     float: left;
     padding: 0 0 0 20px;
     margin: 300px auto 0;
 }
 .best_inner{
-    width: 90%;
+    width: 94%;
     float: right;
     text-align: left;
     color: #fff;
@@ -409,10 +411,9 @@ header{
     margin: 0 auto;
 }
 .best_img{
-    width: 500px;
+    width: 700px;
     display: flex;
     float: right;
-    margin: 0 auto;
 }
 .best_img img{
     width: 100%;
@@ -540,7 +541,7 @@ input[type="text"]{
     background-color: #303030;
     border-radius: 0 4px 4px 0;
     display: inline-block;
-    padding: 4px 24px 5px;
+    padding: 4px 24px 6px;
     margin: 0 0 0 -138px;
 }
 .subscribe_link a{
@@ -622,7 +623,7 @@ footer{
 }
 .footerInner_content{
     float: left;
-    margin: 0 0 0 20px;
+    margin: 0 0 0 79px;
 }
 .footer_rig h4{
     margin: 0 0 12px 0;

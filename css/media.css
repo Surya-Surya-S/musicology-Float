@@ -21,7 +21,7 @@
 }
 .menu li{
     float: left;
-    margin: 0 4px;
+    margin: 0 3px;
 }
 /* header_end */
 
@@ -38,9 +38,9 @@
     margin: 0 auto 20px;
 }
 .banner_link{
-    width: 28%;
+    width: 30%;
     display: block;
-    padding: 6px 22px 10px;
+    padding: 6px 23px 10px;
     margin: 0 auto;
 }
 .banner_link a{
@@ -241,7 +241,7 @@ footer{
     padding-bottom: 30px;
 }
 .footer_lef, .footer_rig{
-    width: 64%;
+    width: 68%;
     float: none;
 }
 .footer_lef h4, .footer_rig h4 a{

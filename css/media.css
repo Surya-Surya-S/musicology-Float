@@ -38,9 +38,9 @@
     margin: 0 auto 20px;
 }
 .banner_link{
-    width: 26%;
+    width: 27%;
     display: block;
-    padding: 6px 21px 10px;
+    padding: 6px 22px 10px;
     margin: 0 auto;
 }
 .banner_link a{
@@ -228,6 +228,7 @@ input[type="text"]{
     margin: 0 auto 0 50px;
 }
 .subscribe_link{
+    padding: 4px 24px 5px;
     margin: 0 0 0 -112px;
 }
 .subscribe_link a{
@@ -247,7 +248,7 @@ footer{
     font-size: 20px;
 }
 .footer_lef p, .footer_rig p a{
-    width: 92%;
+    width: 94%;
     font-size: 12px;
     line-height: 20px;
 }

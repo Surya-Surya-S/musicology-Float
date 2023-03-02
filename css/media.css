@@ -1,5 +1,8 @@
 @media only screen and (max-width: 565px){
 /* header_start */
+.header_inner{
+    width: 92%;
+}
 .logo, .menu{
     width: 80%;
     float: none;
@@ -28,6 +31,9 @@
 /* banner_start */
 .banner{
     padding: 70px 0 48px;
+}
+.banner_inner{
+    width: 92%;
 }
 .banner_inner h2{
     text-align: center;

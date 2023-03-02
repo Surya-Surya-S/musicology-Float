@@ -1,0 +1,246 @@
+@media only screen and (max-width: 565px){
+/* header_start */
+.logo, .menu{
+    width: 80%;
+    float: none;
+    margin: 0 auto 20px;
+}
+.menu{
+    width: 100%;
+    background-color: #fff;
+}
+.logo_img{
+    width: 34%;
+    margin: 0 auto;
+}
+.search_icon{
+    display: none;
+}
+.menu li{
+    float: left;
+    margin: 0 6px;
+}
+/* header_end */
+
+/* banner_start */
+.banner_inner h2{
+    text-align: center;
+}
+.banner_inner p{
+    margin: 0 0 20px 100px;
+}
+.banner_link{
+    width: 36%;
+    display: block;
+    margin: 0 165px 0 auto;
+}
+/* banner_end */
+
+/* dance_start */
+.dance_top p{
+    width: 94%;
+    font-size: 15px;
+    line-height: 25px;
+}
+.dance_content{
+    width: 66%;
+    float: none;
+    text-align: center;
+    margin: 0 auto 30px;
+}
+.america_img{
+    width: 302px;
+}
+.content_bottom h2{
+    font-size: 22px;
+}
+.content_bottom p{
+    width: 94%;
+    font-size: 15px;
+    line-height: 25px;
+}
+/* dance_end */
+
+/* pricing_start */
+.pricing_top h2{
+    font-size: 40px;
+}
+.pricing_top p{
+    width: 96%;
+    font-size: 15px;
+    line-height: 25px;
+}
+.pricing_content{
+    width: 66%;
+    float: none;
+    text-align: center;
+    margin: 0 auto 30px;
+}
+.pricing_img{
+    width: 90px;
+}
+.pricing_bottom h2{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.pricing_bottom p{
+    width: 94%;
+    font-size: 12px;
+    line-height: 22px;
+}
+.pricing_link{
+    width: 70%;
+    padding: 10px 30px;
+}
+/* pricing_end */
+
+/* amazing_start */
+.amazing_lef{
+    width: 100%;
+    float: none;
+}
+.amazing_img{
+    width: 466px;
+}
+.amazing_rig{
+    width: 100%;
+    margin-top: 70px;
+}
+.amazing_inner p{
+    width: 72%;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.amazing_inner h2{
+    font-size: 40px;
+}
+.amazing_link{
+    padding: 10px 30px;
+}
+.amazing_link a{
+    font-size: 12px;
+}
+/* amazing_end */
+
+/* best_start */
+.best_lef{
+    width: 100%;
+    margin: 50px auto 40px;
+}
+.best_rig{
+    width: 100%;
+}
+.best_img{
+    width: 466px;
+}
+.best_inner h2{
+    font-size: 40px;
+}
+.best_inner p{
+    width: 72%;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.best_link{
+    padding: 10px 30px;
+}
+.best_link a{
+    font-size: 12px;
+}
+/* best_end */
+
+/* statistics_start */
+.statistics{
+    padding: 90px 0 60px;
+}
+.statistics_top{
+    width: 84%;
+    margin-bottom: 60px;
+}
+.statistics_top h2{
+    font-size: 40px;
+}
+.statistics_top p{
+    font-size: 15px;
+    line-height: 25px;
+}
+.statistics_inner{
+    width: 70%;
+    float: none;
+    margin-bottom: 20px;
+}
+.statistics_inner h2{
+    font-size: 30px;
+}
+.statistics_inner p{
+    font-size: 16px;
+}
+/* statistics_end */
+
+/* herbert_start */
+.herbert{
+    padding: 100px 0;
+}
+.herbert_inner{
+    width: 80%;
+}
+.herbert_inner p{
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+.herbert_inner h2{
+    font-size: 20px;
+}
+/* herbert_end */
+
+/* subscribe_start */
+.subscribe_inner{
+    width: 84%;
+}
+.subscribe_inner h2{
+    font-size: 40px;
+}
+.subscribe_inner p{
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+form{
+    width: 90%;
+}
+input[type="text"]{
+    font-size: 10px;
+}
+.subscribe_link a{
+    font-size: 10px;
+}
+/* subscribe_end */
+
+/* footer_start */
+footer{
+    padding-bottom: 30px;
+}
+.footer_lef, .footer_rig{
+    width: 64%;
+    float: none;
+}
+.footer_lef h4, .footer_rig h4 a{
+    font-size: 20px;
+}
+.footer_lef p, .footer_rig p a{
+    width: 90%;
+    font-size: 12px;
+    line-height: 20px;
+}
+.footer_link{
+    margin-bottom: 40px;
+}
+.footerInner_content{
+    float: none;
+    margin: 0 0 40px;
+}
+/* footer_end */
+}
